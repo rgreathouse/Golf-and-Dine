@@ -1,20 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">  
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Emblema+One&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/styles.css">
-        <title>Golf and Dine</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div><img src="/images/vecteezy_modern-abstract-background-with-blue-and-yellow-stripes_8074260.jpg" alt="bg">
-            <header>
-                <p>Golf and Dine</p>
-                
-            </header>
-        </div>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Golf & Dine</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Golf & Dine</h1>
+    <nav>
+        <button id="twilight-toggle">🌙 Twilight Mode</button>
+      <a href="#">Home</a>
+      <a href="#">Sim Experience</a>
+      <a href="#">Menu</a>
+      <a href="#">Book Now</a>
+    </nav>
+  </header>
+  <section id="gspro-sim">
+  <h2>Select a Virtual Course</h2>
+  <div class="course-selector">
+    <img src="courses/augusta.jpg" alt="Augusta National" data-course="Augusta" />
+    <img src="courses/pebblebeach.jpg" alt="Pebble Beach" data-course="Pebble" />
+  </div>
+
+  <div id="booth-sim">
+    <div><h3 id="booth-course">Now Playing: None</h3></div>
+    
+    <img src="/images/theBay.png" alt="theBay" height="800">
+    <div class="ball-trace" id="ball-trace"></div>
+  </div>
+</section>
+
+  <section class="hero sim-bay">
+    <h2>Swing into Flavor</h2>
+    <p>Experience immersive golf simulation while savoring alpha-gal safe cuisine.</p>
+    <button>Reserve a Bay</button>
+  </section>
+
+  <section class="section-grid">
+    <div class="golf-card">
+      <h3>State-of-the-Art Simulators</h3>
+      <p>Perfect your swing in cutting-edge, climate-controlled virtual bays.</p>
+    </div>
+    <div class="golf-card">
+      <h3>Alpha-Gal Safe Dining</h3>
+      <p>Thoughtfully crafted meals that skip mammalian ingredients—flavor included.</p>
+    </div>
+  </section>
+
+  <section class="menu-section">
+    <h2>Menu Preview</h2>
+    <div class="section-grid">
+      <div class="menu-card">
+        <h3>Smoky Avocado Tacos</h3>
+        <p>Grilled veggies, citrus slaw, cashew crema in corn tortillas.</p>
+        <span class="badge">Alpha-Gal Safe</span>
+      </div>
+      <div class="menu-card">
+        <h3>Lemon Herb Chicken Bowl</h3>
+        <p>Free-range poultry with quinoa, greens, and lemon vinaigrette.</p>
+        <span class="badge">Dairy-Free</span>
+        <span class="badge">Alpha-Gal Safe</span>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Golf & Dine | Leitchfield, KY</p>
+  </footer>
+<script src="scripts/script.js"></script>
+
+</body>
 </html>
