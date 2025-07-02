@@ -1,0 +1,91 @@
+/* ==== Global Styles ==== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f0;
+    color: #2e2e2e;
+    line-height: 1.6;
+  }
+  
+  /* ==== Header ==== */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #284e36; /* dark green */
+    color: white;
+  }
+  
+  nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ==== Hero Section ==== */
+  .hero {
+    background: url('your-hero-image.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 6rem 2rem;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero button {
+    background-color: #88b04b; /* fresh green */
+    border: none;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* ==== Grid Layout for Features ==== */
+  .section-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 3rem 2rem;
+  }
+  
+  /* ==== Menu Cards ==== */
+  .menu-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .menu-card .badge {
+    display: inline-block;
+    background-color: #f4d35e; /* allergen-safe yellow */
+    color: #333;
+    border-radius: 5px;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+  
+  /* ==== Footer ==== */
+  footer {
+    background-color: #284e36;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  
