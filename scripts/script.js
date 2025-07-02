@@ -10,6 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
       document.querySelectorAll(".menu-card").forEach(card =>
         card.classList.toggle("twilight")
       );
+      
+      document.querySelectorAll(".hero").forEach(card =>
+        card.classList.toggle("twilight")
+      );
       document.querySelectorAll(".golf-card").forEach(card =>
         card.classList.toggle("twilight")
       );

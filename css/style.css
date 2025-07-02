@@ -17,15 +17,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     padding: 1rem 2rem;
     background-color: #284e36; /* dark green */
-    color: white;
+    color: gray;
   }
   
   nav a {
     margin: 0 1rem;
     text-decoration: none;
-    color: white;
+    color: gray;
   }
   
   nav a:hover {
@@ -35,7 +36,7 @@
   /* ==== Hero Section ==== */
   .hero {
     background: url('your-hero-image.jpg') center/cover no-repeat;
-    color: white;
+    color: black;
     text-align: center;
     padding: 6rem 2rem;
   }
@@ -84,7 +85,7 @@
   /* ==== Footer ==== */
   footer {
     background-color: #284e36;
-    color: white;
+    color: gray;
     text-align: center;
     padding: 2rem;
   }
@@ -113,6 +114,9 @@ button#twilight-toggle:hover {
 .menu-card.twilight {
   background-color: #2a2a3d;
   border-color: #555;
+}
+.hero.twilight {
+  color: white;
 }
 
 .golf-card.twilight {
